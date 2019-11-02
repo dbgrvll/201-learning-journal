@@ -9,24 +9,24 @@ alert('Glad you stopped by ' +visitorName + '!')
 var schoolName = prompt ('Have you heard of Groovy UVee? That\'s the school I went to.');
 console.log(schoolName)
 
-function schoolName {
+
   if (schoolName.toUpperCase() === 'Yes') {
-    return "Then you\'ve heard of the University of Vermont or UVM! That\'s great!";
+    console.log( "Then you\'ve heard of the University of Vermont or UVM! That\'s great!");
   } else {
     return "You need to look into the University of Vermont or UVM!";
   }
-}
+
 
 var majorName = prompt ('Can you guess what I may have studied?');
 console.log(majorName)
 
-function majorName {
+
     if (majorName.toUpperCase() === 'Yes') {
       return "Yup. That\'s right. TWO majors: English AND ECON, too.";
     } else {
       return "That was a trick question. I had TWO majors: English AND ECON, too.";
     }
-  }
+  
 
 var workName = prompt ('Do you know what Global Content Managers do?');
 console.log(tasteName)
@@ -70,16 +70,7 @@ function workName {
 //It should give the user exactly four opportunities to get the correct answer.
 //After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
-var workFuture = prompt ('Do you know the long-term prospects for technical writers and other content folks?');
-    console.log(tasteName)
-    
-    function workFuture {
-        if (workFuture.toUpperCase() === 'Yes') {
-          return "Then you know prospects are neither up nor down. Just flat. Not a hot, new field.";
-        } else {
-          return "Let me tell you then. Prospects are neither up nor down. Just flat. Not a hot, new field.";
-        }
-      }
+
 
 
 //As a user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
@@ -89,16 +80,7 @@ var workFuture = prompt ('Do you know the long-term prospects for technical writ
 //It should give the user exactly four opportunities to get the correct answer.
 //After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
-var workFuture = prompt ('Do you know the long-term prospects for technical writers and other content folks?');
-    console.log(tasteName)
-    
-    function workFuture {
-        if (workFuture.toUpperCase() === 'Yes') {
-          return "Then you know prospects are neither up nor down. Just flat. Not a hot, new field.";
-        } else {
-          return "Let me tell you then. Prospects are neither up nor down. Just flat. Not a hot, new field.";
-        }
-      }
+
 
 //As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
 
@@ -108,16 +90,7 @@ var workFuture = prompt ('Do you know the long-term prospects for technical writ
 //Display all the possible correct answers to the user.
 //Consider using a loop of some sort for this question.
 
-var workFuture = prompt ('Do you know the long-term prospects for technical writers and other content folks?');
-    console.log(tasteName)
-    
-    function workFuture {
-        if (workFuture.toUpperCase() === 'Yes') {
-          return "Then you know prospects are neither up nor down. Just flat. Not a hot, new field.";
-        } else {
-          return "Let me tell you then. Prospects are neither up nor down. Just flat. Not a hot, new field.";
-        }
-      }
+
 
 //As a user, I would like to know my final score so that I can know how well I did.
 
