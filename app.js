@@ -1,65 +1,68 @@
-'use strict'; 
+'use strict';
 
 
 
-var visitorName = prompt ('What is your name?');
-console.log(visitorName)
-alert('Glad you stopped by ' +visitorName + '!')
+// var visitorName = prompt ('What is your name?');
+// console.log(visitorName)
+// alert('Glad you stopped by ' +visitorName + '!')
          
-var schoolName = prompt ('Have you heard of Groovy UVee? That\'s the school I went to.');
-console.log(schoolName)
 
-
-  if (schoolName.toUpperCase() === 'Yes') {
-    console.log( "Then you\'ve heard of the University of Vermont or UVM! That\'s great!");
+function schoolName() {
+  var schoolName = prompt ('Have you heard of Groovy UVee? That\'s the school I went to.');
+  console.log(schoolName);
+  if (schoolName.toUpperCase() === 'YES') {
+    alert('Then you\'ve heard of the University of Vermont or UVM! That\'s great!');
+    return;
   } else {
-    return "You need to look into the University of Vermont or UVM!";
+    return 'You need to look into the University of Vermont or UVM!';
+    alert('You need to look into the University of Vermont or UVM!')
   }
+}
+console.log(schoolName());
+
+// var majorName = prompt ('Can you guess what I may have studied?');
+// console.log(majorName)
 
 
-var majorName = prompt ('Can you guess what I may have studied?');
-console.log(majorName)
+//     if (majorName.toUpperCase() === 'Yes') {
+//       return "Yup. That\'s right. TWO majors: English AND ECON, too.";
+//     } else {
+//       return "That was a trick question. I had TWO majors: English AND ECON, too.";
+//     }
 
 
-    if (majorName.toUpperCase() === 'Yes') {
-      return "Yup. That\'s right. TWO majors: English AND ECON, too.";
-    } else {
-      return "That was a trick question. I had TWO majors: English AND ECON, too.";
-    }
-  
+var workName = prompt ('Do you know what Global Content Managers do? (Yes or No?)?');
+console.log(workName);
 
-var workName = prompt ('Do you know what Global Content Managers do?');
-console.log(tasteName)
-
-function workName {
-    if (workName.toUpperCase() === 'Yes') {
-      return "Yeah. We\'re kind of like writers, editors, strategists, and project managers, too.";
-    } else {
-      return "We\'re kind of like writers, editors, strategists, and project managers, too.";
-    }
+function workName() {
+  if (workName.toUpperCase('') === 'Yes') {
+    return "Yeah. We\'re kind of like writers, editors, strategists, and project managers, too.";
+  } else {
+    return "We\'re kind of like writers, editors, strategists, and project managers, too.";
   }
+}
 
-  var workQuality = prompt ('Have heard it\'s great to be a technical writer?');
-  console.log(tasteName)
+var workQuality = prompt ('Have heard it\'s great to be a technical writer? (Yes or No?)?');
+console.log(workQuality);
   
-  function workQuality {
-      if (workQuality.toUpperCase() === 'Yes') {
-        return "Yeah. Then you\'ve read articles about how it\'s satisfying work. Flexible and lucrative.";
-      } else {
-        return "I guess you missed all the articles about how it\'s satisfying work. Flexible and lucrative.";
-      }
-    }
+function workQuality() {
+  if (workQuality.toUpperCase('') === 'Yes') {
+    return "Yeah. Then you\'ve read articles about how it\'s satisfying work. Flexible and lucrative.";
+  } else {
+    return "I guess you missed all the articles about how it\'s satisfying work. Flexible and lucrative.";
+  }
+}
 
-    var workFuture = prompt ('Do you know the long-term prospects for technical writers and other content folks?');
-    console.log(tasteName)
+var workFuture = prompt ('Do you know the long-term prospects for technical writers and other content folks? (Yes or No?)');
+console.log(workFuture);
     
-    function workFuture {
-        if (workFuture.toUpperCase() === 'Yes') {
-          return "Then you know prospects are neither up nor down. Just flat. Not a hot, new field.";
-        } else {
-          return "Let me tell you then. Prospects are neither up nor down. Just flat. Not a hot, new field.";
-        }
-      }
+function workFuture() {
+  if (workFuture.toUpperCase() === 'Yes') {
+    return "Then you know prospects are neither up nor down. Just flat. Not a hot, new field.";
+  } else {
+    return "Let me tell you then. Prospects are neither up nor down. Just flat. Not a hot, new field.";
+  }
+}
 
     
 
