@@ -7,9 +7,11 @@ Motivation
 This will be helpful in a couple of ways:
 I'll get to learn by practicing some HTML and lots of new JS
 Classmates and instructors will have fun getting to know me
+Is to practice the pair programing with great success
 
 Build status
 This is the 1st phase of the About Me project
+This is the 3rd phase of the About Me project
 
 Code style
 Following instructors' and teaching assistants' lead. The code style will look and feel much like any newbie Code Felloes student
